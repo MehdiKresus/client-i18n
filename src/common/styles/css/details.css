@@ -1,0 +1,24 @@
+.details-drawer {
+  header {
+    margin-bottom: 0 !important;
+
+    span {
+      @apply text-lg
+    }
+  }
+
+  &--wrapper {
+  padding-left: 0.25rem;
+
+    &--label {
+      @apply text-blue-800;
+      @apply text-lg;
+    }
+
+    &--content-item {
+      margin-top: 0.15rem;
+      padding-left: 1rem;
+      @apply text-gray-600;
+    }
+  }
+}
