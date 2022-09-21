@@ -7,6 +7,7 @@ declare module 'vue' {
     'Carbon:cloudUpload': typeof import('~icons/carbon/cloud-upload')['default']
     'Carbon:password': typeof import('~icons/carbon/password')['default']
     'Carbon:userAvatarFilledAlt': typeof import('~icons/carbon/user-avatar-filled-alt')['default']
+    CarbonLanguage: typeof import('~icons/carbon/language')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     CarbonWarning: typeof import('~icons/carbon/warning')['default']

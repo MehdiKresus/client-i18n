@@ -25,7 +25,6 @@ export default defineConfig({
       compositionOnly: true,
       include: [path.resolve(__dirname, 'locales/**')],
     }),
-    console.log(path.resolve(__dirname, 'locales/**')
     Inspector(),
     Vue({
       include: [/\.vue$/],

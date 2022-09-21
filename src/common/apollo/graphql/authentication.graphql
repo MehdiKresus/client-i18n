@@ -1,5 +1,0 @@
-query authenticateBackofficeAdmin($email: String!, $password: String!, $version: Float!) {
-  authenticateBackofficeAdmin(email: $email, password: $password, version: $version) {
-    token
-  }
-}
