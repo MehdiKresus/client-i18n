@@ -29,6 +29,8 @@
 - 🤖 FSM, Final state machine [xstate](https://xstate.js.org/)
 - 🏭 Graphql code generation via [Graphql Code Generator](https://github.com/dotansimha/graphql-code-generator)
 
+- 🌍 [I18n ready](./locales)
+
 <br>
 
 ## Pre-packed
@@ -44,7 +46,6 @@
 - [`unplugin-icons`](https://github.com/antfu/unplugin-icons) - icons as Vue components
 
 ### Plugins
-
 - [Graphql code generator](https://www.graphql-code-generator.com/) Graphql composition and type generating system
 - [Vue Router](https://github.com/vuejs/vue-router)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
@@ -56,7 +57,8 @@
 - [Vue Apollo GraphQL](https://v4.apollo.vuejs.org/)
   - [@apollo/client](https://github.com/apollographql/apollo-client) - Fully-featured caching GraphQL client with vue integration
   - [@vue/apollo-composable](https://github.com/vuejs/apollo) - Apollo GraphQL functions for Vue Composition API
-
+- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
+  - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
 ### Coding Style
 
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
@@ -72,6 +74,7 @@
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
   - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally) - All in one i18n support
 
 
 ### Run the project
